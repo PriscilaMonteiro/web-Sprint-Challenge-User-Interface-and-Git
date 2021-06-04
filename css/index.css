@@ -105,7 +105,7 @@ img.image{
 /*end of header style*/
 .container {
     width: 800px;
-    margin: 10% auto;
+    margin: 10px auto;
 }
 .top-content {
     display: flex;
@@ -199,8 +199,11 @@ footer nav a {
     text-decoration: none;
 }
 .about-top-content{
+    margin-top: 10px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding:10px;
+    text-align: justify;
 }
 
 .about-middle-content{
@@ -211,3 +214,14 @@ footer nav a {
     
 
 }
+button{
+    border:1px solid black;
+    border-radius:10px;
+    background-color: white;
+    padding:2%;
+    margin:2%;
+}
+/*.about-text-container{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;  
+}*/
