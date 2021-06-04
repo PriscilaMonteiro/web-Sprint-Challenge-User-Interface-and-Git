@@ -212,6 +212,7 @@ footer nav a {
     align-items: center; 
     justify-content: space-evenly;
     
+    
 
 }
 button{
@@ -220,6 +221,10 @@ button{
     background-color: white;
     padding:2%;
     margin:2%;
+}
+.about-card{
+    border-bottom:1px dashed black;
+    margin-bottom: 10px;
 }
 /*.about-text-container{
     margin-bottom: 20px;
