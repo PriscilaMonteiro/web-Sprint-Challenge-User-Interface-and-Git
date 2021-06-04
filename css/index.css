@@ -52,6 +52,7 @@ table {
     margin: 0;
     max-width:100%;
     color:#4f4f4f;
+    /* border:1px solid black; */
 }
 /*General Styles*/
 html, body {
@@ -196,4 +197,17 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.about-top-content{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle-content{
+    display: flex;
+    flex-wrap:wrap; 
+    align-items: center; 
+    justify-content: space-evenly;
+    
+
 }
